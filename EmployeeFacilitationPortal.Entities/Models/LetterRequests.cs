@@ -14,7 +14,6 @@ namespace EmployeeFacilitationPortal.Entities.Models
         public int Id { get; set; }
 
         [ForeignKey("LetterTypes")]
-      //  [JsonProperty(PropertyName = "type")]
         public int LetterTypeId { get; set; }
 
         [ForeignKey("Employee")]
